@@ -1,5 +1,12 @@
-import '@/styles/globals.css'
+import React from "react";
+import AuthState from "@/context/auth/authState";
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+const MyApp = ({ Component, pageProps }) => {
+  return (
+    <AuthState>
+      <Component {...pageProps}></Component>
+    </AuthState>
+  );
+};
+
+export default MyApp;
