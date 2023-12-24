@@ -15,7 +15,7 @@ const Login = () => {
   const router = useRouter();
   useEffect(() => {
     if (autenticado) {
-      router.push("/card");
+      router.push("/Card");
     }
   }, [autenticado]);
 
