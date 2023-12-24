@@ -31,13 +31,13 @@ const Header = () => {
         ) : (
           <>
             <Link
-              href="/login"
+              href="/Login"
               className="bg-blue-500 px-5 py-3 rounded-lg text-white font-bold uppercase mr-2"
             >
               Iniciar Sesión
             </Link>
             <Link
-              href="/registrarse"
+              href="/Registrarse"
               className="bg-black px-5 py-3 rounded-lg text-white font-bold uppercase"
             >
               Registrarse

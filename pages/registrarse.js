@@ -5,7 +5,7 @@ import * as Yup from "yup";
 import authContext from "@/context/auth/authContex";
 import Alerta from "@/components/Alerta";
 
-const registrarse = () => {
+const Registrarse = () => {
   //Acceder al state
   const AuthContext = useContext(authContext);
   const { mensaje, registrarUsuario } = AuthContext;
@@ -126,4 +126,4 @@ const registrarse = () => {
   );
 };
 
-export default registrarse;
+export default Registrarse;
