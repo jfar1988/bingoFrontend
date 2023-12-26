@@ -1,5 +1,6 @@
 module.exports = {
   env: {
-    backendURL: "http://localhost:4000",
+    backendURL: "https://bingoback.onrender.com",
+    frontendURL: "https://main--lambent-kulfi-9b41db.netlify.app/",
   },
 };
